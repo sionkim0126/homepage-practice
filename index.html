@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Jeju</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">    
+    <header>
+      <div id="logo">
+        <a href="index.html">
+          <img src="images/Kiwoom_heroes.png" alt="">
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">HEROES <span>▼</span></a>
+            <ul>
+              <li><a href="#">히어로즈 소개</a></li>
+              <li><a href="#">구장 안내</a></li>
+            </ul>
+          </li>
+          <li><a href="#">PLAYERS  <span>▼</span></a>
+            <ul>
+              <li><a href="#">코칭 스탭</a></li>
+              <li><a href="#">투수</a></li>
+              <li><a href="#">포수</a></li>
+              <li><a href="#">내야수</a></li>
+              <li><a href="#">외야수</a></li>
+            </ul>
+          </li>
+          <li><a href="#">GAME  <span>▼</span></a>
+            <ul>
+              <li><a href="#">경기 일정</a></li>
+            </ul>
+            <li><a href="#">STORY  <span>▼</span></a>
+              <ul>
+                <li><a href="#">히어로즈 사진</a></li>
+              </ul>
+        </ul>
+      </nav>
+    </header>
+    <div id="slideShow">
+      <div id="slides">
+        <img src="images/photo-1.jpg" alt="">
+        <img src="images/photo-2.jpg" alt="">
+        <img src="images/photo-3.jpg" alt="">
+      </div>
+      <div id="main-under">
+        <img src="images/under.jpg" alt="">
+      </div>
+      <button id="prev">&lang;</button>
+      <button id="next">&rang;</button>
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">공지사항</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">갤러리</label>      
+        <div id="notice" class="tabContent">
+          <h2>공지사항 내용입니다.</h2>
+          <ul>            
+            <li>2024 KBO리그 정규시즌 중계일정(7.16 ~ 7.21)</li>
+            <li>16일(화) KT전 ‘배화여자대학교 DAY’ 행사 진행</li>
+            <li>11일(목) 한화전 가수 김시온 시구</li>
+            <li>팀 재정비 위해 선수단 정리</li>
+            <li>2024 KBO리그 정규시즌 중계일정(7.9~7.14)</li>            
+          </ul>
+        </div>
+        <div id="gallery" class="tabContent">
+          <h2>갤러리 내용입니다.</h2>
+          <ul>
+            <li><img src="images/img-1.jpg"></li>
+            <li><img src="images/img-2.jpg"></li>
+            <li><img src="images/img-3.jpg"></li>
+            <li><img src="images/img-4.jpg"></li>
+            <li><img src="images/img-5.jpg"></li>
+            <li><img src="images/img-6.jpg"></li>                     
+          </ul>
+        </div>        
+      </div>
+      <div id="links">
+        <ul>
+          <li>
+            <a href="#">
+              <span id="quick-icon1"></span>
+              <p>[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 클릭하는 순간 그곳이 바로 고척돔 🔥ㅣ2024 키움 히어로즈 플레이리스트</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon2"></span>
+              <p>2024 올스타 비하인드 스로리 이게 진짜 히어로즈</p>
+            </a>            
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon3"></span>
+              <p>퓨쳐스올스타 맛보기</p> <p> 퓨쳐스올스타</p>
+            </a>            
+          </li>
+        </ul>
+      </div>
+    </div>  
+    <footer>    
+      <div id="bottomMenu">
+        <ul>
+          <li><a href="#">회사 소개</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">여행약관</a></li>
+          <li><a href="#">사이트맵</a></li>
+        </ul>
+        <div id="sns">
+          <ul>
+            <li><a href="#"><img src="images/sns-1.png"></a></li>
+            <li><a href="#"><img src="images/sns-2.png"></a></li>
+            <li><a href="#"><img src="images/sns-3.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="company">
+        <p>제주특별자치도 ***동 ***로 *** (대표전화) 123-456-7890</p> 
+      </div>     
+    </footer>  
+  </div> 
+
+  <script src="js/slideshow.js"></script>
+</body>
+</html>
